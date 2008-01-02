@@ -12,6 +12,7 @@ Patch2: %name-%{version}.cvs-alt-getlogin.patch
 Patch3: mtree-3.1-owl-fixes.patch
 
 BuildRequires: openssl-devel
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 The utility %name compares the file hierarchy rooted in the current
