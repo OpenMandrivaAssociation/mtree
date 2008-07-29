@@ -1,6 +1,6 @@
 Name: mtree
 Version: 2.7
-Release: %mkrel 1
+Release: %mkrel 3
 
 Summary: Map a directory hierarchy
 License: BSD
