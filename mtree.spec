@@ -42,3 +42,31 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %_sbindir/*
 %_mandir/man?/*
+
+
+%changelog
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 2.7-6mdv2011.0
++ Revision: 612950
+- the mass rebuild of 2010.1 packages
+
+* Mon Apr 19 2010 Funda Wang <fwang@mandriva.org> 2.7-5mdv2010.1
++ Revision: 536599
+- rebuild
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 2.7-4mdv2010.0
++ Revision: 430114
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 2.7-3mdv2009.0
++ Revision: 253068
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Wed Nov 21 2007 Jérôme Soyer <saispo@mandriva.org> 2.7-1mdv2008.1
++ Revision: 110893
+- import mtree
+
+
