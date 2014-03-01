@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Name:    mtree
 Version: 2.7
 Release: 7
