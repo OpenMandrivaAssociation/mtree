@@ -2,7 +2,7 @@
 
 Name:    mtree
 Version: 2.7
-Release: 7
+Release: 8
 Summary: Map a directory hierarchy
 License: BSD
 Group:   System/Base
