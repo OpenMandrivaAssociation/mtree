@@ -2,7 +2,7 @@
 
 Name:    mtree
 Version: 2.7
-Release: 8
+Release: 9
 Summary: Map a directory hierarchy
 License: BSD
 Group:   System/Base
@@ -12,7 +12,7 @@ Patch:   mtree-3.1-owl-linux.patch
 Patch2:  %{name}-%{version}.cvs-alt-getlogin.patch
 Patch3:  mtree-3.1-owl-fixes.patch
 
-BuildRequires: openssl-devel
+BuildRequires: pkgconfig(openssl)
 
 %description
 The utility %name compares the file hierarchy rooted in the current
@@ -28,7 +28,8 @@ missing from either the file hierarchy or the specification.
 %patch3 -p1
 
 %build
-make -C usr.sbin/%{name}
+%set_build_flags
+%make_build -C usr.sbin/%{name} -j1
 
 %install
 install -p -m755 -D usr.sbin/%{name}/%{name} %{buildroot}%{_sbindir}/%{name}
