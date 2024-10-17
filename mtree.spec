@@ -6,7 +6,7 @@ Release: 9
 Summary: Map a directory hierarchy
 License: BSD
 Group:   System/Base
-Url:     http://www-db.deis.unibo.it/Mtree/
+Url:     https://www-db.deis.unibo.it/Mtree/
 Source:  %{name}-%{version}.cvs.tar.bz2
 Patch:   mtree-3.1-owl-linux.patch
 Patch2:  %{name}-%{version}.cvs-alt-getlogin.patch
