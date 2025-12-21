@@ -12,6 +12,7 @@ Patch:   mtree-3.1-owl-linux.patch
 Patch2:  %{name}-%{version}.cvs-alt-getlogin.patch
 Patch3:  mtree-3.1-owl-fixes.patch
 
+BuildRequires:	make
 BuildRequires: pkgconfig(openssl)
 
 %description
